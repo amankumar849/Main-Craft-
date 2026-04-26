@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aman | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav id="main-navbar">
+    <div class="container nav-container">
+      <div class="logo">Aman<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="theme-btn">🌙</button>
+    </div>
+  </nav>
+
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm <span class="highlight">Aman Kumar</span></h1>
+      <p class="tagline">A Frontend Developer focused on building clean UI and interactive web apps</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View My Projects</a>
+        <a href="#contact" class="btn secondary">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>"I am a B.Tech student (2023-2027 batch) at Government Engineering College, Lakhisarai..."</p>
+        </div>
+        <div class="about-image">
+          <img src="image2/amanpro.jpeg" alt="Aman Profile" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section bg-dark">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-info">
+            <h3>E-Commerce Website</h3>
+            <p>Full-featured online store.</p>
+            <div class="tech-stack"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <form class="contact-form" id="portfolio-form">
+          <div class="input-group">
+            <input type="text" id="name" placeholder="Your Name">
+            <small class="error-msg" id="name-error"></small>
+          </div>
+          <div class="input-group">
+            <input type="email" id="email" placeholder="Your Email">
+            <small class="error-msg" id="email-error"></small>
+          </div>
+          <div class="input-group">
+            <textarea id="message" placeholder="Your Message" rows="5"></textarea>
+            <small class="error-msg" id="message-error"></small>
+          </div>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Aman. Built with ❤️</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
