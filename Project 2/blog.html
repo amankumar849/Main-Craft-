@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman | Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="main-navbar" class="scrolled">
+        <div class="container nav-container">
+            <div class="logo">Aman<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">My Insights</h2>
+            
+            <!-- Search Box -->
+            <div class="search-container">
+                <input type="text" id="blog-search" placeholder="Search posts by title...">
+            </div>
+
+            <!-- Blog Grid -->
+            <div class="projects-grid" id="blog-posts-container">
+                <!-- Blog Post 1 -->
+                <article class="project-card blog-card">
+                    <div class="project-info">
+                        <span class="date">April 28, 2026</span>
+                        <h3 class="post-title">Getting Started with C++</h3>
+                        <p>Exploring the basics of pointers and memory management...</p>
+                        <a href="post-cpp.html" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="project-card blog-card">
+                    <div class="project-info">
+                        <span class="date">April 25, 2026</span>
+                        <h3 class="post-title">Mastering Flexbox</h3>
+                        <p>How to create responsive layouts easily using CSS Flexbox...</p>
+                        <a href="post-flexbox.html" class="read-more">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="project-card blog-card">
+                    <div class="project-info">
+                        <span class="date">April 20, 2026</span>
+                        <h3 class="post-title">Python for Data Science</h3>
+                        <p>Why Python is the king of data analysis and visualization...</p>
+                        <a href="post-python.html" class="read-more">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <script src="blog.js"></script>
+</body>
+</html>
